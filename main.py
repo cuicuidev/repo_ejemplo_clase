@@ -1,6 +1,8 @@
+import streamlit as st
+
 def main():
-    print("hola mundo")
-    print("adiós mundo")
+    st.write("## hola mundo")
+    st.write("### adiós mundo")
 
 if __name__ == "__main__":
     main()
